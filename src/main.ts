@@ -7,6 +7,7 @@ const app = new App({
   target: document.getElementById('app')!,
 })
 injectSpeedInsights();
+inject();
 export default app;
 
 
