@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@vercel/analytics':
+    specifier: ^1.2.2
+    version: 1.2.2
   '@vercel/speed-insights':
     specifier: ^1.0.10
     version: 1.0.10(svelte@4.2.12)
@@ -559,6 +562,20 @@ packages:
   /@types/pug@2.0.10:
     resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
     dev: true
+
+  /@vercel/analytics@1.2.2:
+    resolution: {integrity: sha512-X0rctVWkQV1e5Y300ehVNqpOfSOufo7ieA5PIdna8yX/U7Vjz0GFsGf4qvAhxV02uQ2CVt7GYcrFfddXXK2Y4A==}
+    peerDependencies:
+      next: '>= 13'
+      react: ^18 || ^19
+    peerDependenciesMeta:
+      next:
+        optional: true
+      react:
+        optional: true
+    dependencies:
+      server-only: 0.0.1
+    dev: false
 
   /@vercel/speed-insights@1.0.10(svelte@4.2.12):
     resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==}
@@ -1746,6 +1763,10 @@ packages:
       immutable: 4.3.5
       source-map-js: 1.1.0
     dev: true
+
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
+    dev: false
 
   /shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
