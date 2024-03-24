@@ -29,6 +29,7 @@
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
+    "devicon": "^2.16.0",
     "postcss-import": "^16.0.1",
     "postcss-nesting": "^12.1.0"
   }
