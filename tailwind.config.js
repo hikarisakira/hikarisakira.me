@@ -8,12 +8,11 @@ export default {
     extend: {},
   },
   plugins: [
-      require('@tailwindcss/typography'),
       require('daisyui')
   ],
   daisyui:{
-    themes: ["retro", "wireframe"],
-    darkTheme: "dim",
+    themes: ["retro", "sunset"],
+    darkTheme: "sunset",
     base: true,
     styled: true,
     utils: true,

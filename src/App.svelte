@@ -6,14 +6,17 @@
 
 
 </style>
-<script lang="ts">
+<script>
     import Information from './components/information.svelte'
     import Footer from './components/footer.svelte'
+    import Navbar from './components/navbar.svelte'
 </script>
 
 
 <body>
     <div>
+        <Navbar />
+        <br>
         <Information />
         <br>
         <Footer />
