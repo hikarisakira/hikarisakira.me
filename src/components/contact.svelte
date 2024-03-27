@@ -22,7 +22,7 @@
                 </a>
             </button>
             <button class="contact-lnk">
-                <a href="https://github.com/hikarisakira">
+                <a href="https://www.facebook.com/profile.php?id=61550973911600">
                     <i class="ci ci-facebook ci-2x"/>
                 </a>
             </button>
