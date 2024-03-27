@@ -11,7 +11,7 @@
 </style>
 
 <div class="avatar">
-    <div class="w-32 rounded-full shadow-md">
+    <div class="shadow-2xl w-32 rounded-full shadow-white">
         <img src="https://www.gravatar.com/avatar/68ff3955f6a62528adfc59a6f123998920d65ef832d4ef69050608f040091c54" alt="Moi.">
     </div>
 </div>
@@ -21,4 +21,8 @@
         <h6>a.k.a Hikari Sakira</h6>
         <h2>@hikarisakira</h2>
     </div>
+</div>
+<div class="flex flex-auto text-center items-center horizontal">
+    <p>Application Developer @ HsinChu MacKay Memorial Hospital &emsp14;</p>
+    <div class="badge badge-secondary">now</div>
 </div>

@@ -3,14 +3,12 @@
     @apply flex flex-auto items-center justify-center h-screen text-center
   }
 
-  button{
-    @apply btn
-  }
+
 
 </style>
 <script lang="ts">
-    import Information from './components/infomation.svelte'
-    import Contact from './components/contact.svelte'
+    import Information from './components/information.svelte'
+    import Footer from './components/footer.svelte'
 </script>
 
 
@@ -18,7 +16,6 @@
     <div>
         <Information />
         <br>
-        <Contact />
-
+        <Footer />
     </div>
 </body>
