@@ -3,6 +3,6 @@
         <img src="/favicon.gif" alt="Hello" class="ci ci-3x">
     </div>
     <div class="flex-none">
-        <input type="checkbox" value="dim" class="toggle theme-controller"/>
+        <input type="checkbox" value="sunset" class="toggle theme-controller"/>
     </div>
 </div>
