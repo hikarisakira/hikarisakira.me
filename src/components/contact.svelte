@@ -20,7 +20,7 @@
             </a>
         </button>
         <button class="contact-lnk">
-            <a href="https:/t.me/hikarisakira_me">
+            <a href="https://ppt.cc/f4B54x">
                     <i class="ci ci-telegram ci-2x"/>
             </a>
         </button>
