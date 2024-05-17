@@ -11,7 +11,7 @@
             <p>Made with &emsp14;</p>
             <i class="ci ci-svelte ci-1x"/>
             <i class="ci ci-tailwind ci-1x"/>
-            <img src="https://daisyui.com/images/daisyui-logo/daisyui-logomark.svg" alt="daisyui logomark" class="ci-1x"/>
+            <img src="https://img.daisyui.com/images/daisyui-logo/daisyui-logomark.svg" alt="daisyui logomark" class="ci-1x"/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="vite logomark" class="ci-1x"/>
             <i class="ci ci-vercel ci-1x"/>
             <p>&emsp13; & ❤️</p>
