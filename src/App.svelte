@@ -1,24 +1,26 @@
-<style lang="scss">
-  body{
-    @apply flex flex-auto items-center justify-center h-screen text-center
-  }
+<svelte:options runes={true} />
 
-
-
-</style>
 <script>
+    import Navbar from './components/navbar.svelte'
     import Information from './components/information.svelte'
     import Footer from './components/footer.svelte'
-    import Navbar from './components/navbar.svelte'
 </script>
 
+<style>
+  .container {
+    @apply flex flex-auto items-center justify-center h-screen text-center
+  }
+  main {
+    @apply flex-1 w-full flex items-center justify-center
+  }
+</style>
 
-<body>
-    <div>
-        <Navbar />
-        <br>
-        <Information />
-        <br>
-        <Footer />
-    </div>
-</body>
+<div class="container">
+  <Navbar />
+  <br>
+  <main>
+    <Information />
+  </main>
+  <br>
+  <Footer />
+</div>
