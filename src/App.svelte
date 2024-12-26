@@ -7,15 +7,18 @@
 </script>
 
 <style>
-  .container {
-    @apply flex flex-auto items-center justify-center h-screen text-center
+  .root {
+    @apply min-h-screen relative flex flex-col;
   }
+
   main {
-    @apply flex-1 w-full flex items-center justify-center
+    @apply absolute inset-0 flex items-center justify-center;
+    /* 為了避免遮擋導航欄和頁尾，添加上下 margin */
+    margin: 64px 0;  /* 根據實際的導航欄和頁尾高度調整這個值 */
   }
 </style>
 
-<div class="container">
+<div class="root">
   <Navbar />
   <br>
   <main>
